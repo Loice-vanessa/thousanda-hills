@@ -65,8 +65,8 @@ nav a:hover .active {
     
 }
 .logo-img {
-    width: 200px;
-    border-radius: 40%;
+    width: 20px;
+    border-radius: 20%;
   }
   /* about section */
   .about-1{
@@ -77,19 +77,24 @@ nav a:hover .active {
       text-align: center;
       color: black;
       font-size: bold;
+      padding-bottom: 1rem;
+      background-image: linear-gradient(to right, rgb(53, 53, 165), rgb(168, 124, 12));
+      
   }
    .about-1 p{
       text-align: center;
       padding: 3px;
-      color: #fff;
+      color: rgb(5, 5, 5);
+      font-size: 1.7rem;
       
   }
 .about-2 {
-width: 1100px;
+width: 90%;
 height: auto;
-border: 1px  black;
-margin: 30px auto;
+border: 1rem  rgb(12, 12, 12);
+margin: 30px;
 padding: 0px;
+font-size: 1rem;
 
 
 }
@@ -120,14 +125,14 @@ padding: 0px;
       margin-top: 20px;
   }
   .about-item:hover{
-      background-color: lightblue;
+    background-image: linear-gradient(to right, rgb(144, 144, 190), rgb(175, 162, 129));
   }.about-item:hover i,
   .about-item:hover h3,
   .about-item:hover p{
       color: black;
   }
   .about-item:hover hr{
-      background-color: #fff ;
+      background-color: rgb(179, 50, 50) ;
   }
   .about-item:hover i{
       transform: translate(-20PX);
@@ -138,11 +143,13 @@ padding: 0px;
       transition: all 400ms ease-in-out;
   }
   footer{
-      background-color: #212226;
+      background-color: #000305;
       padding: 20px;
+      
   }
    footer p{
        color: #fff;
+       align-items: center;
    }
    /* book now section */
    .search-btn{
@@ -284,6 +291,7 @@ input:hover,
 .fb {
   background-color: #3B5998;
   color: white;
+  
 }
 
 .twitter {
